@@ -32,13 +32,12 @@ aws_secret_access_key=<발급받은_액세스키에대한_시크릿키>
 
 ## usage
 
-먼저 하위 두 개의 디렉토리를 확인합니다.
+레포지토리의 파일들을 Clone합니다.
 
-```text
-aws-iot-rekongtion
-|---aws-iot-rekognition-ec2   // 웹 서버를 가동시킬 node.js(express)코드가 있습니다. 웹 서버에 이 디렉토리를 다운받습니다.
-|---aws-iot-rekognition-pi    // 사진을 촬영할 라즈베리파이/카메라 코드가 있습니다. 라즈베리파이에 이 디렉토리를 다운받습니다.
 ```
+> git clone https://github.com/IOUIOU50/aws-iot-rekognition
+```
+
 
 그 후 각각 터미널을 열고, 아래의 커맨드를 입력합니다.
 
